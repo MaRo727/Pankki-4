@@ -7,7 +7,7 @@
         <title>Document</title>
     </head>
     <body>
-        <button onclick="jorma.tiliTiedot()">Tilitiedot</button>
+        <button onclick="jorma.tiliNumeronSyotto(); jorma.tiliTiedot()">Syötä tilinumerosi</button>        
         <p id="tiliNumeroLinkki"></p>
         <button onclick="jorma.talletus(); jorma.tiliTiedot()">Talleta rahaa</button>
         <button onclick="jorma.nosto(); jorma.tiliTiedot()">Nosta rahaa</button>
@@ -16,6 +16,7 @@
         <button onclick="jorma.historiaLista()">Historia</button>
         <p id="saldoEnnen"></p>
         <p id="paivaysmerkinta"></p>
+        <br><br><br><br><br><br><p>Esimerkkitilinumero FI49 5000 9420 0287 30</p>
         <script src="Pankki.js"></script>
     </body>
     </html>
